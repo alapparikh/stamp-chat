@@ -21,6 +21,14 @@
 		864790A1189438820045546F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86479083189438810045546F /* UIKit.framework */; };
 		864790A9189438820045546F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 864790A7189438820045546F /* InfoPlist.strings */; };
 		864790AB189438820045546F /* StampChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864790AA189438820045546F /* StampChatTests.m */; };
+		864790B518944DD70045546F /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 864790B418944DD70045546F /* pic.png */; };
+		E673247C1A88683F00821BD0 /* Pencil-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E67324791A88683F00821BD0 /* Pencil-icon.png */; };
+		E673247D1A88683F00821BD0 /* Save_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E673247A1A88683F00821BD0 /* Save_icon.png */; };
+		E673247E1A88683F00821BD0 /* text-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E673247B1A88683F00821BD0 /* text-icon.png */; };
+		E67324801A88691F00821BD0 /* cross-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E673247F1A88691F00821BD0 /* cross-icon.png */; };
+		E67324821A886B8000821BD0 /* stamp-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E67324811A886B8000821BD0 /* stamp-icon.png */; };
+		E6A464F51A85A6A5001A48E0 /* ios_stampchat.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A464F41A85A6A5001A48E0 /* ios_stampchat.png */; };
+		E6B0A30D1A99587300687454 /* email-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B0A30C1A99587300687454 /* email-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		864790A6189438820045546F /* StampChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StampChatTests-Info.plist"; sourceTree = "<group>"; };
 		864790A8189438820045546F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		864790AA189438820045546F /* StampChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StampChatTests.m; sourceTree = "<group>"; };
+		864790B418944DD70045546F /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
+		E67324791A88683F00821BD0 /* Pencil-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pencil-icon.png"; sourceTree = "<group>"; };
+		E673247A1A88683F00821BD0 /* Save_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Save_icon.png; sourceTree = "<group>"; };
+		E673247B1A88683F00821BD0 /* text-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-icon.png"; sourceTree = "<group>"; };
+		E673247F1A88691F00821BD0 /* cross-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross-icon.png"; sourceTree = "<group>"; };
+		E67324811A886B8000821BD0 /* stamp-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stamp-icon.png"; sourceTree = "<group>"; };
+		E6A464F41A85A6A5001A48E0 /* ios_stampchat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stampchat.png; sourceTree = "<group>"; };
+		E6B0A30C1A99587300687454 /* email-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,7 @@
 				86479091189438810045546F /* Main.storyboard */,
 				86479094189438810045546F /* SCViewController.h */,
 				86479095189438810045546F /* SCViewController.m */,
+				864790B418944DD70045546F /* pic.png */,
 				86479097189438820045546F /* Images.xcassets */,
 				86479086189438810045546F /* Supporting Files */,
 			);
@@ -127,6 +144,13 @@
 			isa = PBXGroup;
 			children = (
 				86479087189438810045546F /* StampChat-Info.plist */,
+				E67324791A88683F00821BD0 /* Pencil-icon.png */,
+				E6B0A30C1A99587300687454 /* email-icon.png */,
+				E67324811A886B8000821BD0 /* stamp-icon.png */,
+				E673247F1A88691F00821BD0 /* cross-icon.png */,
+				E673247A1A88683F00821BD0 /* Save_icon.png */,
+				E673247B1A88683F00821BD0 /* text-icon.png */,
+				E6A464F41A85A6A5001A48E0 /* ios_stampchat.png */,
 				86479088189438810045546F /* InfoPlist.strings */,
 				8647908B189438810045546F /* main.m */,
 				8647908D189438810045546F /* StampChat-Prefix.pch */,
@@ -229,9 +253,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67324821A886B8000821BD0 /* stamp-icon.png in Resources */,
 				86479098189438820045546F /* Images.xcassets in Resources */,
 				8647908A189438810045546F /* InfoPlist.strings in Resources */,
+				864790B518944DD70045546F /* pic.png in Resources */,
+				E673247E1A88683F00821BD0 /* text-icon.png in Resources */,
+				E673247C1A88683F00821BD0 /* Pencil-icon.png in Resources */,
+				E6B0A30D1A99587300687454 /* email-icon.png in Resources */,
 				86479093189438810045546F /* Main.storyboard in Resources */,
+				E67324801A88691F00821BD0 /* cross-icon.png in Resources */,
+				E673247D1A88683F00821BD0 /* Save_icon.png in Resources */,
+				E6A464F51A85A6A5001A48E0 /* ios_stampchat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +493,7 @@
 				864790B0189438820045546F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		864790B1189438820045546F /* Build configuration list for PBXNativeTarget "StampChatTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +502,7 @@
 				864790B3189438820045546F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,12 @@
 
 @interface SCViewController : UIViewController
 
+@property CGPoint lastPoint;
+@property CGFloat red;
+@property CGFloat green;
+@property CGFloat blue;
+@property CGFloat brush;
+@property CGFloat opacity;
+@property BOOL mouseSwiped;
+
 @end
